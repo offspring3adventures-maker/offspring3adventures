@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Offspring Adventures | Let's Plan Something Amazing</title>
+<meta name="description" content="Offspring Adventures helps you plan memorable beach vacations, cruises, all-inclusive resorts, family vacations, couples getaways and international travel.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Offspring <span>Adventures</span></a>
+  <nav>
+    <a href="index.html">Home</a><a href="trips.html">Trips</a><a href="#about">About</a><a href="#inquire">Plan a Trip</a>
+  </nav>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">Travel made personal</p>
+    <h1>Let's Plan Something Amazing.</h1>
+    <p>From relaxing beach escapes to unforgettable family adventures, Offspring Adventures helps turn your travel ideas into a trip you'll be excited about.</p>
+    <div class="actions"><a class="button" href="#inquire">Start Planning</a><a class="button secondary" href="trips.html">Explore Trips</a></div>
+  </div>
+</section>
+<section class="section" id="trips">
+  <div class="section-heading"><p class="eyebrow">Where will you go?</p><h2>Travel your way.</h2><p>Choose a trip style and we'll help you take it from idea to itinerary.</p></div>
+  <div class="cards">
+    <a class="card" href="trips.html#beach"><h3>Beach Vacations</h3><p>Sun, sand, relaxation and a little escape from everyday life.</p></a>
+    <a class="card" href="trips.html#cruises"><h3>Cruises</h3><p>See more, unpack once, and enjoy the journey along the way.</p></a>
+    <a class="card" href="trips.html#all-inclusive"><h3>All-Inclusive Resorts</h3><p>Make relaxing easier with stays designed around your getaway.</p></a>
+    <a class="card" href="trips.html#family"><h3>Family Vacations</h3><p>Create memories the whole family can enjoy.</p></a>
+    <a class="card" href="trips.html#couples"><h3>Couples Getaways</h3><p>Reconnect with a romantic escape made for two.</p></a>
+    <a class="card" href="trips.html#international"><h3>International Travel</h3><p>Go farther and experience somewhere new.</p></a>
+  </div>
+</section>
+<section class="section split" id="about">
+  <div><p class="eyebrow">Why Offspring Adventures?</p><h2>Your trip. Your style. Your adventure.</h2></div>
+  <div><p>Travel planning can feel overwhelming. We make the process more personal by helping you narrow down the options, organize the details and build a vacation around what matters to you.</p><p>Whether you're planning a family vacation, a romantic getaway, a cruise or your next big adventure, we're here to help.</p></div>
+</section>
+<section class="section accent" id="about-agent">
+  <div class="section-heading"><p class="eyebrow">Meet your travel advisor</p><h2>Hi, I'm Sanya.</h2><p>I'm here to help make planning your next adventure easier, more personal and more exciting.</p></div>
+</section>
+<section class="section" id="cruise">
+  <div class="booking-placeholder">
+    <p class="eyebrow">Cruise planning</p><h2>Ready to set sail?</h2>
+    <p>We're preparing our cruise booking experience. In the meantime, tell us what you're looking for and we'll help you get started.</p>
+    <a class="button" href="#inquire">Ask About a Cruise</a>
+  </div>
+</section>
+<section class="section inquiry" id="inquire">
+  <div class="section-heading"><p class="eyebrow">Let's get started</p><h2>Tell us about your dream trip.</h2><p>Send a few details and we'll use them to start your travel conversation.</p></div>
+  <form id="inquiry-form">
+    <div class="form-grid">
+      <label>Name<input required name="name" autocomplete="name"></label>
+      <label>Email<input required type="email" name="email" autocomplete="email"></label>
+      <label>Travel type<select name="tripType"><option>Beach Vacation</option><option>Cruise</option><option>All-Inclusive Resort</option><option>Family Vacation</option><option>Couples Getaway</option><option>International Travel</option><option>Other</option></select></label>
+      <label>Approximate travel date<input type="date" name="date"></label>
+    </div>
+    <label>Tell us what you're dreaming about<textarea required name="message" rows="5" placeholder="Where would you like to go? Who is traveling? Any budget, dates or special requests?"></textarea></label>
+    <button class="button" type="submit">Send My Inquiry</button>
+    <p id="form-status" class="form-status" role="status"></p>
+  </form>
+</section>
+</main>
+<footer>
+  <div><a class="logo" href="index.html">Offspring <span>Adventures</span></a><p>Let's plan something amazing.</p></div>
+  <div class="footer-links"><a href="trips.html">Trips</a><a href="#about">About</a><a href="#inquire">Contact</a><a href="#">Privacy</a><a href="#">Terms</a></div>
+  <p class="copyright">© 2026 Offspring Adventures. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
