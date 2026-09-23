@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://offspring3adventures.com/sitemap.xml
